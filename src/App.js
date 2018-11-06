@@ -6,7 +6,6 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <p>Kerja Praktek</p>
           <a
             className="App-link"
             href="https://rentalmobilpekanbaru.id"
