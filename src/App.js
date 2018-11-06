@@ -1,18 +1,35 @@
 import React, { Component } from "react";
-import "./App.css";
+
+const appStyle = {
+  textAlign: "center"
+};
+
+const appHeader = {
+  minHeight: "100vh",
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  justifyContent: "center",
+  fontSize: "calc(10px + 2vmin)",
+  color: "white"
+};
+
+const appLink = {
+  color: "#047d9f"
+};
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
+      <div style={appStyle}>
+        <header style={appHeader}>
           <a
-            className="App-link"
+            style={appLink}
             href="https://rentalmobilpekanbaru.id"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Rental Mobil Pekanbaru
+            Rental Mobil
           </a>
         </header>
       </div>
